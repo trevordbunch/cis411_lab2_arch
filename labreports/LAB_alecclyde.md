@@ -20,28 +20,28 @@ This application helps those who wish to do volunteer more and help others. This
 
 | Use Case #1 |Volunteers|
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| **Title** |Sign up for a Service Event |
+| **Description / Steps** | This use case describes how a volunteer would sign up for a service event that is hosted by a Service Agency. |
+| **Primary Actor** |The Volunteer |
+| **Preconditions** |Volunteer has an account. There is a Service Event for the Volunteer to sign up for.|
+| **Postconditions** |The service agency can access the list of people who sign-up for the event. |
 
 | Use Case #2 |Service Agencies|
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| **Title** |Add a Service Event |
+| **Description / Steps** |This use case describes how a Service Agency would create a service event that volunteers could sign up for. |
+| **Primary Actor** |Service Host |
+| **Preconditions** |The Service Agency has already registered their organization. |
+| **Postconditions** |The service agency's event is updated on the database. The event is listed for volunteers to see. |
 
 ## Step 2.2 Define the MVC Components
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Name | Organization Page | EventFeedController |
+| Location | Volunteer Page | CreateEventController |
+| Event Title | Event Feed | EditProfileController |
+| Event Description | Map Event Page | SignUpEventController |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
