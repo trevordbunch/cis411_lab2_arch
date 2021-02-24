@@ -9,16 +9,16 @@ ___
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [x] I have forked the repository and created my lab report
+- [x] I have reviewed the [lecture / discussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
+This application helps those who wish to do volunteer more and help others. This aggregates all volunteer events and organizations into one app so volunteers can find events easier.
 
 ## Step 2.1 Representative Use Cases  
 
-| Use Case #1 | |
+| Use Case #1 |Volunteers|
 |---|---|
 | Title | |
 | Description / Steps | |
@@ -26,7 +26,7 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 | Preconditions | |
 | Postconditions | |
 
-| Use Case #2 | |
+| Use Case #2 |Service Agencies|
 |---|---|
 | Title | |
 | Description / Steps | |
