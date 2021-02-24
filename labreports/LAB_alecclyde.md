@@ -2,9 +2,9 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Alec Chappell  
+**GitHub Handle:** @alecclyde  
+**Repository:** [Alecclyde's Forked Repository](https://github.com/alecclyde/cis411_lab2_arch)  
 **Collaborators:** 
 ___
 
