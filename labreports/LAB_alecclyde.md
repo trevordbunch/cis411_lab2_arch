@@ -5,7 +5,7 @@ ___
 **Name:** Alec Chappell  
 **GitHub Handle:** @alecclyde  
 **Repository:** [Alecclyde's Forked Repository](https://github.com/alecclyde/cis411_lab2_arch)  
-**Collaborators:** 
+**Collaborators:** @ArturD0nnelly @NikMourelatos @Jmtonnies
 ___
 
 # Step 1: Confirm Lab Setup
