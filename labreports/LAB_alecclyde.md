@@ -18,7 +18,7 @@ This application helps those who wish to do volunteer more and help others. This
 
 ## Step 2.1 Representative Use Cases  
 
-| Use Case #1 |Volunteers|
+| Use Case #1 |Volunteer|
 |---|---|
 | **Title** |Sign up for a Service Event |
 | **Description / Steps** | This use case describes how a volunteer would sign up for a service event that is hosted by a Service Agency. |
@@ -44,18 +44,21 @@ This application helps those who wish to do volunteer more and help others. This
 | Event Description | Map Event Page | SignUpEventController |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
-
+![](../assets/MVC%20Diagram.jpg)
+For the volunteer to make an account, they have to send a request to the controller, where the controller should create an object to send to the model. Then the model sends the result to the controller. It gets sent to the view to show the user to confirm their account was created.
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+
+I would continue using the MVC architecture short-term, as changing the architecture would likely cause issues and is fine for our situation. Serve Central would need to create an API for companies to link their profiles to. An API for the third-party to connect to for the input data. The MVC architecture can get incredibly complicated quickly, this can be especially difficult on the views if the model changes frequently.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![](../assets/MVC%20Diagram%20(Updated).jpg) This diagram adds the "Third Party" onto the model. The model is there in the diagram to show how the data continues to flow in a similar path. I also added a fork off of the controller, where if the user wants to visit a organization's website, it is grabbed directly from the organization.
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+The best way to handle the large bursts of users is to use a load balancing technique in order to decrease downtime and to create redundancy. With the need for increased storage space and for increased insurance for quality back-ups, I would suggest buying and putting servers in different locations (preferably our hot-spots). This would keep us from being susceptible to certain environmental threats, and it would again increase redundancy and access speed.  
+
+The additional architecture is needed to meet all requirements of the new grant. If there is a large event that gains popularity, we have to be ready to accommodate a large flock of users.
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
