@@ -53,12 +53,9 @@ For the volunteer to make an account, they have to send a request to the control
 I would continue using the MVC architecture short-term, as changing the architecture would likely cause issues and is fine for our situation. Serve Central would need to create an API for companies to link their profiles to. An API for the third-party to connect to for the input data. The MVC architecture can get incredibly complicated quickly, this can be especially difficult on the views if the model changes frequently.
 
 ## Step 3.2 Revised Architecture Diagram
-![](../assets/MVC%20Diagram%20(Updated).jpg) This diagram adds the "Third Party" onto the model. The model is there in the diagram to show how the data continues to flow in a similar path. I also added a fork off of the controller, where if the user wants to visit a organization's website, it is grabbed directly from the organization.
+![](../assets/MVC%20Diagram%20(Updated).jpg) This diagram adds the "Third Party" to the model. I kept the model in the diagram to show the data continuing to flow in the same path. I also added a fork off of the controller, where if the user wants to visit a organization's website, it is grabbed directly from the organization.
 
 # Step 4: Scaling an Architecture
-The best way to handle the large bursts of users is to use a load balancing technique in order to decrease downtime and to create redundancy. With the need for increased storage space and for increased insurance for quality back-ups, I would suggest buying and putting servers in different locations (preferably our hot-spots). This would keep us from being susceptible to certain environmental threats, and it would again increase redundancy and access speed.  
+The best way to handle the large bursts of users is to use a load balancing technique in order to decrease downtime and to create redundancy. With the need for increased storage space and for increased insurance for quality back-ups, I would suggest buying and putting servers in different locations (preferably our hot-spots). This would keep us from being susceptible to certain environmental threats, and it would again increase redundancy and access speed. We will also need to add in another interface that allows the 'authorized parties' to issue queries into our database. These queries must be monitored, as we do not want the wrong party gaining access, nor do we want to have an accidental deletion of the entire database and backups.  
 
 The additional architecture is needed to meet all requirements of the new grant. If there is a large event that gains popularity, we have to be ready to accommodate a large flock of users.
-
-# Extra Credit
-If you opt to do extra credit, then include it here.
