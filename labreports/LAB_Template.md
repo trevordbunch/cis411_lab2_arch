@@ -38,13 +38,15 @@ This application would help people to find more volunteer opportunities. The app
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Agency | Servise Agency Page | EventAdvertisment |
+| Event Host | Volunteering Page | CreateEvent |
+| Volunteer | Sighn Up Page | AccountSignUp |
+| Event Details | Event Page | EventSignUp |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![](../assets/UseCaseDiagram.svg)
+
+For the volunteers to find the service opportunities, they have to send the search request to the controller. The controller then will communicate with the model to get the volunteer service results. The model then will send the results back to the controller. On the end, the controller sends the results to the view where the user can view the results on the service events opportunities.
 
 # Step 3: Enhancing an Architecture
 
