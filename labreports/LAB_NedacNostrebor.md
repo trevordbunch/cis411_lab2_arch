@@ -20,11 +20,11 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 
 | Use Case #1 |Volunteer|
 |---|---|
-| Title |Sign up to volunteer|
-| Description / Steps |This use case describes how the volunteer would sign up to volunteer|
+| Title |Sign up for event|
+| Description / Steps |This use case describes how the volunteer would sign up for an event|
 | Primary Actor |Volunteer|
 | Preconditions |The User has created an account and logged in. Events database is available and on-line. There are events to sign up for.|
-| Postconditions |The user is added to the list of volunteers.|
+| Postconditions |The user is added to the list of volunteers for the event.|
 
 | Use Case #2 |Service agencies|
 |---|---|
@@ -44,7 +44,7 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 |Company Information|Company Page|EditCompanyInformationController|
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![Use Case Diagram](../assets/NedacNostrebor_MVC_Diagram.jpg)
 
 # Step 3: Enhancing an Architecture
 
