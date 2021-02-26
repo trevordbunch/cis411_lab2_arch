@@ -46,15 +46,17 @@ This application would help people to find more volunteer opportunities. The app
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 ![](../assets/UseCaseDiagram.svg)
 
-For the volunteers to find the service opportunities, they have to send the search request to the controller. The controller then will communicate with the model to get the volunteer service results. The model then will send the results back to the controller. On the end, the controller sends the results to the view where the user can view the results on the service events opportunities.
+For volunteers to sign up for the event the request has to be sent to the controller, where the controller will send the information to the model for the update. The module then will send the results back to the controller, and the controller then will send it to the view for the user to visualize it. And then users can see that they were signed up for the service event. 
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+I would say that using MVC, in this case, would be ideal. One of the benefits of continuing to use MVC would be the fans that MVC is easy to adopt. So, it wouldn't be too complicated to update the already existing MVC model. Since we are building another interface on top of the Serve Central, the potential issue would be difficulties in supporting multiple similar views on the same model.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![](../assets/Step3.svg)
+
+In this diagram, I have added the Third Party that is connected to the Model so that information can be traded between the Model and Third-Party Services. I have also added Organization's Interface to the Controller. So, if the user is signing up for the even from the outside of the organization the interface would look different than if the user is signing up from the organization page.
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
