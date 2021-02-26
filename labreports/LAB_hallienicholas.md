@@ -5,13 +5,13 @@ ___
 **Name:** Hallie Nicholas  
 **GitHub Handle:** hallienicholas
 **Repository:**  hallienicholas/cis411_lab2_arch   
-**Collaborators:** @isaacparada @el1303
+**Collaborators:** @el1303 @tim12-code
 ___
 
 # Step 1: Confirm Lab Setup
-- [f ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [x] I have forked the repository and created my lab report
+- [x] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve central is an application which stores information about service activities and locations on the database and allows for users to see what opportunities are around them to serve the community. Along with being able to find an event, users can sign up for the event through the app as well which ensures a smooth overall experience, and is an easy way for people to learn about service opportunities and events.
@@ -20,19 +20,19 @@ Serve central is an application which stores information about service activitie
 
 | Use Case #1 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Look for service opportunities|
+| Description / Steps | This use case describes how the volunteer finds a service opportunity based on location and signs up through the service.|
+| Primary Actor | Volunteer|
+| Preconditions | 1. Volunteer is signed in 2. Volunteer needs an opportunity 3. Location access is enabled on user's phone|
+| Postconditions | 1. Volunteer is sent a confirmation of signup 2. Volunteer has an opportunity|
 
 | Use Case #2 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Agency lists a hosted event |
+| Description / Steps | Agency is looking for volunteers and gives their information to the application's database|
+| Primary Actor | Service Agencies |
+| Preconditions | 1. Service agency must be looking for volunteers 2. Agency must be hosting an event|
+| Postconditions | 1. Agency hosts the event 2. Agency of notified of signups|
 
 ## Step 2.2 Define the MVC Components
 
