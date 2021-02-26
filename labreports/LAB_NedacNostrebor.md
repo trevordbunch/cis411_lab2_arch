@@ -10,12 +10,12 @@ ___
 
 # Step 1: Confirm Lab Setup
 - [X] I have forked the repository and created my lab report
-- [X] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [X] I have reviewed the [lecture / discussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
 - [X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
-- ServeCentral is an app that makes it easier to find and sign up for volunteer opertunities. The app stores all event and company information and all user information.
+- ServeCentral is an app that makes it easier to find and sign up for volunteer opportunities. The app stores all event and company information and all user information.
 ## Step 2.1 Representative Use Cases  
 
 | Use Case #1 |Volunteer|
