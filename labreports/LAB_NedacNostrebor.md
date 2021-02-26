@@ -9,39 +9,39 @@ ___
 ___
 
 # Step 1: Confirm Lab Setup
-- [ ] I have forked the repository and created my lab report
-- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [X] I have forked the repository and created my lab report
+- [X] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
-
+- ServeCentral is an app that makes it easier to find and sign up for volunteer opertunities. The app stores all event and company information and all user information.
 ## Step 2.1 Representative Use Cases  
 
-| Use Case #1 | |
+| Use Case #1 |Volunteer|
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title |Sign up to volunteer|
+| Description / Steps |This use case describes how the volunteer would sign up to volunteer|
+| Primary Actor |Volunteer|
+| Preconditions |The User has created an account and logged in. Events database is available and on-line. There are events to sign up for.|
+| Postconditions |The user is added to the list of volunteers.|
 
-| Use Case #2 | |
+| Use Case #2 |Service agencies|
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title |Add an event|
+| Description / Steps |This use case describes how the service agencies would add an event|
+| Primary Actor |Service agency|
+| Preconditions |Service agency is authorized. Service agency has added their company information. Events database is available and on-line|
+| Postconditions |The event is stored on the events database|
 
 ## Step 2.2 Define the MVC Components
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+|Profile|Profile Page|EditProfileController|
+|Events|Events Page|AddEventController|
+|Map|Map Page|JoinEventController|
+|Company Information|Company Page|EditCompanyInformationController|
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
