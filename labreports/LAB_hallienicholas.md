@@ -5,7 +5,7 @@ ___
 **Name:** Hallie Nicholas  
 **GitHub Handle:** hallienicholas
 **Repository:**  hallienicholas/cis411_lab2_arch   
-**Collaborators:** 
+**Collaborators:** @isaacparada @el1303
 ___
 
 # Step 1: Confirm Lab Setup
