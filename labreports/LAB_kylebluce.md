@@ -67,7 +67,10 @@ Serve Central is fully functional web and mobile application designed to make vo
 4. Users uses Serve Central's feedback option which allows them to change the rating form which updates the rating for a Service Agency/Event.
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+
+![ServiceAgencyAddingNewEvent](/assets/cis411lab2drawing1.png)
+
+This diagram shows the process of a Service Agency creating a new event through Serve Central.
 
 # Step 3: Enhancing an Architecture
 
