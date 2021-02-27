@@ -50,9 +50,9 @@ Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 
 ## Step 3.1 Architecture Change Proposal
 INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
-
+- I think sticking to MVC is the best option because none of the new requirements really demand switching to a new architectural pattern. The benefit of staying as MVC is that adding the new features will be easier than completely changing the architecture. The draw back of swapping though is that MVC can tend to get overcomplicated the more you add to it.
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![Revised Architecture Diagram](../assets/NedacNostrebor_Revised.jpg)
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
