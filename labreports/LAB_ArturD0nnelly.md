@@ -5,7 +5,7 @@ ___
 **Name:** [Seth Donnelly](https://github.com/ArturD0nnelly)     
 **GitHub Handle:** ArturD0nnelly    
 **Repository:** [cis411_lab2_arch](https://github.com/ArturD0nnelly/cis411_lab2_arch)   
-**Collaborators:** 
+**Collaborators:** @alecclyde @Jmtonnies @RomanSearle
 ___
 
 # Step 1: Confirm Lab Setup
