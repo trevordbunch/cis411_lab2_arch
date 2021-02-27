@@ -9,9 +9,9 @@ ___
 ___
 
 # Step 1: Confirm Lab Setup
-- I have forked the repository and created my lab report
-- I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [x] I have forked the repository and created my lab report
+- [x] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
 
@@ -23,7 +23,11 @@ Serve Central is fully functional web and mobile application designed to make vo
 |---|---|
 | Title | Signing up for a Volunteer Opportunity |
 | Description | This use case describes how volunteers can sign up for volunteer opportunities in the Serve Central application. |    
-| Steps | 1. User logs into the Serve Central application. 2. User navigates to the list of volunteer opportunities nearby. 3. User chooses a volunteer opportunity to sign up for. 4. User fills in their information and availability on a built-in sign up sheet. 5. User confirms their information, completing the sign-up form and is officially registered to volunteer. |   
+| Steps | 1. User logs into the Serve Central application. |
+| | 2. User navigates to the list of volunteer opportunities nearby. |
+| | 3. User chooses a volunteer opportunity to sign up for.| 
+| | 4. User fills in their information and availability on a built-in sign up sheet. | 
+| | 5. User confirms their information, completing the sign-up form and is officially registered to volunteer. |   
 | Primary Actor | Volunteer (User) |    
 | Preconditions | 1. User has an account set up with Serve Central 2. User qualifies for volunteer opportunity they are interested in. |    
 | Postconditions | 1. Serve Central documents the registration information and send it to the Service Agency. 2. Service Agency receives registration information. 3. User shows up on the day of the volunteer event and does their volunteer work. 4. Service Agency confirms user showed up to the event. 5. Serve Central updates the users service statistics. |  
