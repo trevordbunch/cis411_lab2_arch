@@ -56,10 +56,15 @@ Serve Central is fully functional web and mobile application designed to make vo
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| New Event Form | Volunteer Opportunities List | Serve Central's New Event Option |
+| Registration Form | Registered List | Serve Central's Register Option |
+| Volunteer Results | User's Volunteer History | Serve Central's Results Option |
+| Rating Form | Service Agency's Rating | Serve Central's Feedback Option |
+
+1. Service Agency uses Serve Central's new event option to manipulate the new event form which updates the volunteer opportunities list.
+2. User uses serve central's register option to access the registration form which updates the registered list for a particular event.
+3. Service Agency uses Serve Central's results option where the service agency can confirm that the volunteer participated which updates the user's volunteer history.
+4. Users uses Serve Central's feedback option which allows them to change the ration form which updates the rating for a Service Agency/Event.
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
