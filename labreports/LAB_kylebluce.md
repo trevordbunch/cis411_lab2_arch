@@ -25,7 +25,7 @@ Serve Central is fully functional web and mobile application designed to make vo
 | Description | This use case describes how volunteers can sign up for volunteer opportunities in the Serve Central application. |    
 | Steps | 1. User logs into the Serve Central application. |
 | | 2. User navigates to the list of volunteer opportunities nearby. |
-| | 3. User chooses a volunteer opportunity to sign up for.| 
+| | 3. User chooses a volunteer opportunity to sign up for. | 
 | | 4. User fills in their information and availability on a built-in sign up sheet. | 
 | | 5. User confirms their information, completing the sign-up form and is officially registered to volunteer. |   
 | Primary Actor | Volunteer (User) |    
@@ -39,11 +39,18 @@ Serve Central is fully functional web and mobile application designed to make vo
 
 | Use Case #2 | |
 |---|---|
-| Title | |
-| Description / Steps | |
-| Primary Actor | |
-| Preconditions | |
-| Postconditions | |
+| Title | Posting a Volunteer Opportunity |
+| Description | This use case describes how a Service Agency can post a volunteer opportunity. |
+| Steps | 1. Service Agency worker logs into the Serve Central application as a Service Agency. |   
+| | 2. Worker navigates to a tab where they can start the posting process. |    
+| | 3. Worker fills in information about the event. This information includes a description, location, and time of the event as well as the number of volunteers needed and the skills required by volunteers. |    
+| | 4. Worker confirms the information which sends the new event form to Serve Central to review and eventually post. |   
+| Primary Actor | Service Agency Worker |
+| Preconditions | 1. Service Agency has a preexisting account with Serve Central. |
+| | 2. Service Agency has detailed information about the Service Opportunity to fill out the form. |
+| Postconditions | 1. Serve Central reviews and approves the Service Opportunity Posting. |
+| | 2. The Service Opportunity gets posted on the Serve Central Application along with a sign-up sheet. |
+| | 3. Serve Central notifies users that there is a new opportunity available to them if the user's location is close to the event. |
 
 ## Step 2.2 Define the MVC Components
 
