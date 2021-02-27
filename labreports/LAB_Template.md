@@ -21,7 +21,7 @@ This application would help people to find more volunteer opportunities. The app
 | Use Case #1 | Volunteering |
 |---|---|
 | Title | Signing up to volunteer at the service event |
-| Description / Steps | This use case is about how volunteers would sign up for the volunteering event. |
+| Description / Steps | This use case is about how volunteers would sign up for the volunteering event. </br>1. User login into the account. </br>2. The user searched for the desirable service event. </br>3. I the user have found the event they are interested in: </br>a. The user will open the event description </br>b. The user will follow the step to sign up for the event </br>c. The number of attendance will be updated</br>4. If the user did not like the description of the event:</br>a. The user will go to the previous page</br>b. The user will select a different service event. |
 | Primary Actor | The Volunteer |
 | Preconditions | Successful background check. The volunteer successfully signs up for the account. The volunteer meets the requirements. There is a Volunteering event to sign up for. |
 | Postconditions | The service agency has a list of all applicants. The volunteer is notified about more fourth instructions (ex. apology email about not getting in or the congratulation email with data and time of the interview). |
@@ -29,7 +29,7 @@ This application would help people to find more volunteer opportunities. The app
 | Use Case #2 | Creating Voluntireenig event |
 |---|---|
 | Title | Publish the service even |
-| Description / Steps | This use case is about how the Service Agency would advertise the volunteering opportunity that is hosted by the service even host. |
+| Description / Steps | This use case is about how the Service Agency would advertise the volunteering opportunity that is hosted by the service even host. </br>1. Enter the information about the event.</br>2. Information is uploaded to the database. </br>3. The event is publicly published and available for the volunteers. |
 | Primary Actor | The Servide Agent |
 | Preconditions | The organization is registered as a service agency. The service agency has a list of service events advertisement requests. |
 | Postconditions | The event information was added to the database. The service event is published on the application/website of the service agency. |
