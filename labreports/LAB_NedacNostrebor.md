@@ -57,5 +57,6 @@ INSERT IMAGE HERE with a Description.
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
 
+I would use a microservice architectural pattern. It would have low latency due to only having to interact with the necessary functions. Each microservice would be able to have it's own database that can be expanded as it grows to need more space. It would be easy to set up a microservice to track patterns of of volunteer opportunities.
 # Extra Credit
 If you opt to do extra credit, then include it here.
