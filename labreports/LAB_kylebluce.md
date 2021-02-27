@@ -29,8 +29,13 @@ Serve Central is fully functional web and mobile application designed to make vo
 | | 4. User fills in their information and availability on a built-in sign up sheet. | 
 | | 5. User confirms their information, completing the sign-up form and is officially registered to volunteer. |   
 | Primary Actor | Volunteer (User) |    
-| Preconditions | 1. User has an account set up with Serve Central 2. User qualifies for volunteer opportunity they are interested in. |    
-| Postconditions | 1. Serve Central documents the registration information and send it to the Service Agency. 2. Service Agency receives registration information. 3. User shows up on the day of the volunteer event and does their volunteer work. 4. Service Agency confirms user showed up to the event. 5. Serve Central updates the users service statistics. |  
+| Preconditions | 1. User has an account set up with Serve Central |
+| | 2. User qualifies for volunteer opportunity they are interested in. |    
+| Postconditions | 1. Serve Central documents the registration information and send it to the Service Agency. |
+| | 2. Service Agency receives registration information. |
+| | 3. User shows up on the day of the volunteer event and does their volunteer work. |
+| | 4. Service Agency confirms user showed up to the event. |
+| | 5. Serve Central updates the users service statistics. |  
 
 | Use Case #2 | |
 |---|---|
