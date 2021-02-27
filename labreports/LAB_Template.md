@@ -2,37 +2,37 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** [Seth Donnelly](https://github.com/ArturD0nnelly)     
-**GitHub Handle:** ArturD0nnelly    
-**Repository:** [cis411_lab2_arch](https://github.com/ArturD0nnelly/cis411_lab2_arch)   
+**Name:** Your Name  
+**GitHub Handle:** Your GitHub Handle  
+**Repository:** Your Forked Repository  
 **Collaborators:** 
 ___
 
 # Step 1: Confirm Lab Setup
-- [x] I have forked the repository and created my lab report
-- [x] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
-- [x] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
+- [ ] I have forked the repository and created my lab report
+- [ ] I have reviewed the [lecture / discsussion](../assets/04p1_SolutionArchitectures.pdf) on architecture patterns.
+- [ ] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-This application would help people to find more volunteer opportunities. The application would also organize the organization's information and event locations to make the experience of finding the volunteer position easier.   
+Serve Central ... ENTER A BASIC SYSTEM INTRODUCTION HERE (1-2 Sentences).
 
 ## Step 2.1 Representative Use Cases  
 
-| Use Case #1 | Volunteering |
+| Use Case #1 | |
 |---|---|
-| Title | Signing up to volunteer at the service event |
-| Description / Steps | This use case is about how volunteers would sign up for the volunteering event. |
-| Primary Actor | The Volunteer |
-| Preconditions | Successful background check. The volunteer successfully signs up for the account. The volunteer meets the requirements. There is a Volunteering event to sign up for. |
-| Postconditions | The service agency has a list of all applicants. The volunteer is notified about more fourth instructions (ex. apology email about not getting in or the congratulation email with data and time of the interview). |
+| Title | |
+| Description / Steps | |
+| Primary Actor | |
+| Preconditions | |
+| Postconditions | |
 
-| Use Case #2 | Creating Voluntireenig event |
+| Use Case #2 | |
 |---|---|
-| Title | Publish the service even |
-| Description / Steps | This use case is about how the Service Agency would advertise the volunteering opportunity that is hosted by the service even host. |
-| Primary Actor | The Servide Agent |
-| Preconditions | The organization is registered as a service agency. The service agency has a list of service events advertisement requests. |
-| Postconditions | The event information was added to the database. The service event is published on the application/website of the service agency. |
+| Title | |
+| Description / Steps | |
+| Primary Actor | |
+| Preconditions | |
+| Postconditions | |
 
 ## Step 2.2 Define the MVC Components
 
