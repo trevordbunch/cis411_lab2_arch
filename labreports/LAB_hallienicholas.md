@@ -20,7 +20,7 @@ Serve central is an application which stores information about service activitie
 
 | Use Case #1 | |
 |---|---|
-| Title | Look for service opportunities|
+| Title | As a volunteer I can look for service opportunities so I can be helpful and give my time to others.|
 | Description / Steps | This use case describes how the volunteer finds a service opportunity based on location and signs up through the service.|
 | Primary Actor | Volunteer|
 | Preconditions | 1. Volunteer is signed in 2. Volunteer needs an opportunity 3. Location access is enabled on user's phone|
@@ -28,7 +28,7 @@ Serve central is an application which stores information about service activitie
 
 | Use Case #2 | |
 |---|---|
-| Title | Agency lists a hosted event |
+| Title | As the service agency, I can list a hosted event so I can have a good number of volunteers help out. |
 | Description / Steps | Agency is looking for volunteers and gives their information to the application's database|
 | Primary Actor | Service Agencies |
 | Preconditions | 1. Service agency must be looking for volunteers 2. Agency must be hosting an event|
@@ -38,9 +38,9 @@ Serve central is an application which stores information about service activitie
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Service events listed in database | Event page in the program | Ability for volunteers to sign up for events|
+| Reporting function | Information about each reported event | Record of each event our service receives info about |
+| User accounts | Login page | Ability to store password and user info |
 |  |  |  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
