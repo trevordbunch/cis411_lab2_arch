@@ -20,11 +20,11 @@ Serve central is an application which stores information about service activitie
 
 | Use Case #1 | |
 |---|---|
-| Title | As a volunteer I can look for service opportunities so I can be helpful and give my time to others.|
+| Title | As a volunteer I want to look for service opportunities so I can be helpful and give my time to others.|
 | Description / Steps | This use case describes how the volunteer finds a service opportunity based on location and signs up through the service.|
 | Primary Actor | Volunteer|
 | Preconditions | 1. Volunteer is signed in 2. Volunteer needs an opportunity 3. Location access is enabled on user's phone|
-| Postconditions | 1. Volunteer is sent a confirmation of signup 2. Volunteer has an opportunity|
+| Postconditions | 1. Volunteer is sent a confirmation of signup 2. Volunteer has an opportunity to help with|
 
 | Use Case #2 | |
 |---|---|
@@ -41,7 +41,7 @@ Serve central is an application which stores information about service activitie
 | Service events listed in database | Event page in the program | Ability for volunteers to sign up for events|
 | Reporting function | Information about each reported event | Record of each event our service receives info about |
 | User accounts | Login page | Ability to store password and user info |
-|  |  |  |
+| Data receiving | Updated database with information received from service agencies | Ability to receive and store incoming data |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 ![Use Case Diagram](Documents/../../assets/use_cases.png)
@@ -61,3 +61,5 @@ Due to this grant which would expand the service exponentially, a new architectu
 
 # Extra Credit
 ![P2P Diagram](Documents/../../assets/p2p_arch.png)
+
+This diagram is an example of what the architecture would look like if it had grown exponentially and peer to peer architectural patterns were used. I have included 5 main nodes speaking with one another and sharing data with each other about upcoming opportunities. They all hear about the events at the same time and share them with the whole network. I have also included some other actions that can happen between nodes such as registration being embedded in church services, events being posted, and opportunities being viewed. Due to the peer to peer organization of this network, when a piece of data is transmitted and committed, the whole network will see their server updated based on that information which is valuable in a large setting such as this.
