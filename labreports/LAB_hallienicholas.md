@@ -44,8 +44,11 @@ Serve central is an application which stores information about service activitie
 |  |  |  |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![Use Case Diagram](Documents/../../assets/use_cases.png)
+This diagram represents...
 
+![MVC Diagram](Documents/../../assets/mvc_diagram.png)
+This diagram is showing...
 # Step 3: Enhancing an Architecture
 ## Step 3.1 Architecture Change Proposal
 If Serve central were to expand their services and need to be receiving events and opportunities from across the country, I believe the most effective architectural pattern would be broker architecture. This architecture breaks up services through a broker or middle component. This component coordinates communication between parties, forwards requests to the main server and transmits results and exceptions to all involved. This pattern would be beneficial in these circumstances because first of all, the third party services would be able to send and receive data from Service Central, but there would still be security involved and the head server’s data would be more protected. Because they would have four more entities from across the country, it would be a good idea to monitor what is going on between them and the server. Also, local churches would also be able to embed registration services in their websites this way with permission. Due to the fact that they would have to go through the broker, it is a little more complicated, but it is ensuring safety for all users and components involved so it would be smart, and manageable in these circumstances because they only added on four primary volunteer entities in the country. A downside of this architectural pattern would be that it would take a little bit longer for opportunities and events to be posted. The broker is sorting all the messages and communication before it reaches the main server, so it wouldn’t be instantaneous; however, it would be secure.
