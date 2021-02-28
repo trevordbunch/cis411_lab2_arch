@@ -75,13 +75,15 @@ This diagram shows the process of a Service Agency creating a new event through 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+
+In order to meet the needs of the four new clients, I would suggest moving from a MVC architecture to a Client Server architecture. This would help centralize the data in the Serve Central data store and allow the clients to access the database through the internet. This would help Serve Central provide their clients with access to input and retrieve data from their servers. This new architecture would test the security of Serve Central's servers, so they would need to monitor access control to make sure the clients can't access sensitive data and that no malicious attackers are getting into their servers.
+
+Serve Central would also need to implement a way to have organization-specific interfaces to be built into to other websites. The client-server architecture would need to connect the user with Serve Central by having an interface that could be implemented on other websites that connects the user with Serve Central's registration process.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![RevisedArchitecture](/assets/cis411lab2drawing2.png)
+
+This diagram represents the new client-server architecture to meet the new requirements.
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
-
-# Extra Credit
-If you opt to do extra credit, then include it here.
+I think it would be best to implement a Microservice architecture in order to meet the new requirements. I believe this would help increase the scalability making it easier to deal with the dramatic user and data increase. It would also allow those that have access to query the different databases that Serve Central stores their data in which would reveal helpful information about patterns in volunteer opportunities. These changes would help Serve Central adjust for their massive growth and hopefully secure their data more. I think it might seem less organized since there is so much data, so that could be a drawback.
