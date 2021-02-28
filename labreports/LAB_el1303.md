@@ -41,10 +41,10 @@ Serve Central is an web and mobile application that has a list of volunteering o
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Business | service agency | promoting business |
+| Location | volunteer opportunities | creating volunteer opportunities |
+| Event | event orientation | signup for event |
+| Profile | account page | Account signup |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
