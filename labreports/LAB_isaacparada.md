@@ -29,10 +29,10 @@ Use Case #2
 
 | Model | View | Controller |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Check Login credentials | Login page | Handle login request |
+| Update user/agency information, or Access statistics | Home screen | Home screen features & app navigation|
+| Querry for nearby events | Nearby Events list | Handle search requests|
+| Access  event/ organization information | Event/organization pages| Handle requests for all event/organizer pages|
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
 INSERT IMAGE HERE with a Description.
