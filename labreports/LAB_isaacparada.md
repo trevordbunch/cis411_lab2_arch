@@ -42,13 +42,21 @@ The main MVC component here is the login system where the user (a volunteer or s
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+I think I would stick with MVC, probably try to adapt over to the rails architecture. However, I could also see a layered architecture working really well for this scenario. For the first change (the third party integration) a services layer in a layered architecture would allow for anbling those features. For the second change, you could create a specific interface on the presentation layer made specifically for another church to use. This would allow them to use the entire platform while having a unique interface for their needs. 
+
+From what I have read, one of the drawbacks with this architecture is that scalability can become an issue when new third parties require new features. A change to one layer means the entire system has to be changed to accomodate that change. This can be very costly and time consuming.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+
+![layered diagram](labreports/../layered_diagram.png)
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+
+Here I would switch to a microservice architecture like Twitter. This platform is not very complicated. I think the developers could easily get away with creating specific services for each of the new requirements along with the older ones. Specific services devoted just to allowing researchers access to the database will streamline their access. Having 10k+ new volunteer opportunities per hour we would need a fast way to get those sorted, and a dedicated service to that would be efficient. 
+
+Major drawback #1 is the develpement time. Creating each unique service will take time. Drawback #2 is that if third parties and researching do too much querrying of the database it can greatly slow down other important features of the site like the casual user's experience. 
+
+
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
