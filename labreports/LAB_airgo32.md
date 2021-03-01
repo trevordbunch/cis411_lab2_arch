@@ -4,7 +4,7 @@ ___
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Robbie Dorsey  
 **GitHub Handle:** airgo32  
-**Repository:** https://github.com/airgo32/cis411_lab2_arch  
+**Repository:** [Repo](https://github.com/airgo32/cis411_lab2_arch)   
 **Collaborators:** Micah Johnson (@mcjo163), Josiah McCracken (@scribhneoir)
 ___
 
