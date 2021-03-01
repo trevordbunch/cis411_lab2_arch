@@ -47,18 +47,25 @@ Serve Central is an web and mobile application that has a list of volunteering o
 | Profile | account page | Account signup |
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![ArchDia](../assets/DiagramArch.png) 
+Serve central displays the sign up opportunities for volunteers and post events for agencies. The agencies create and host the event for volunteer.
 
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-INSERT Architectural change proposal here, and how it meets the two new requirements.  Explain both the benefits and draw backs of your proposal.
+
+Serve Cental has the advantage to expand their business nationally. They are receiving volunteers as a third party through US. Serve central also built a way to include a link to volunteer registration in church websites websites. 
+
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+![broker](../assets/Broker.png)
+Broker diagram explains how Serve Central receives information from service agencies.
 
 # Step 4: Scaling an Architecture
 INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
+
+Serve Central expanded tremendously making room for various opportunities. Since their expansion they need a space where changes can be made instantaneously for their web and application. Peer to peer architecture pattern would be the best fit using github for the changes to not clash. Github opens for changes to be received despite of the time or place the changes are made from.
+
 
 # Extra Credit
 If you opt to do extra credit, then include it here.
