@@ -14,7 +14,7 @@ ___
 - [X] If I'm collaborating on this project, I have included their handles on the report and confirm that my report is informed, but not copied from my collaborators.
 
 # Step 2: Analyze the Proposal
-Serve Central is a solution to make volunteer events easier for people to find. Users can find and register for lots of local volunteer events all on one app.
+&nbsp;&nbsp;&nbsp;&nbsp;Serve Central is a solution to make volunteer events easier for people to find. Users can find and register for lots of local volunteer events all on one app.
 
 ## Step 2.1 Representative Use Cases  
 
@@ -51,13 +51,12 @@ This UML Sequence diagram describes the process for a user to view an event.
 # Step 3: Enhancing an Architecture
 
 ## Step 3.1 Architecture Change Proposal
-For incorporating these new requirements, I think it would be feasible to stick with the MVC architecture. This could be handled by creating an API for accessing Serve Central data. This would meet the first new requirement by allowing third parties to access the data by using the API. The second solution could also be handled by the API, allowing the organizations to create their own forms and use the Serve Central API to access the database.
+&nbsp;&nbsp;&nbsp;&nbsp;For incorporating these new requirements, I think it would be feasible to stick with the MVC architecture. This could be handled by creating an API for accessing Serve Central data. This would meet the first new requirement by allowing third parties to access the data by using the API. The second solution could also be handled by the API, allowing the organizations to create their own forms and use the Serve Central API to access the database.     
+&nbsp;&nbsp;&nbsp;&nbsp;The biggest benefit of this system would be that the existing functionality doesn't have to be recreated in a new architecture, since it's still using MVC. The existing architecture is also easily adaptable, which would make it very easy to implement new functionality. The biggest drawback to sticking with this system is probably the rigidity that third parties would have to adhere to when using the API. Since the same models providing data to the users are the same models that would use the API, a third party would have to format their data to match the models, and that party might want to track some information that wouldn't be easy to store without making changes to the model.
 
 ## Step 3.2 Revised Architecture Diagram
-INSERT IMAGE HERE with a Description.
+This use case diagram shows how the new functionality would be incorporated alongside the existing uses. Using MVC architecture, the custom built interfaces using the API would serve as the views. The controllers would update the database and the models should stay the same.
+![Use Case Diagram](..\assets\Revised_Serve_Central_use_case_diagram.png "Updated Serve Central use case diagram")  
 
 # Step 4: Scaling an Architecture
-INSERT Architectural change proposal here, and how it meets the four new requirements.  Explain both the benefits and draw backs of your proposal.  If the changes are significant, then you need to explain why the changes are necessary versus a nice-to-have enhancement.
-
-# Extra Credit
-If you opt to do extra credit, then include it here.
+&nbsp;&nbsp;&nbsp;&nbsp;For scaling up the system, I would switch to a microservice architecture with some elements of a brokerage architecture. For one, microservice architecture by design lends itself well to scalability. This architecture would easily satisfy the third and fourth requirements, since those actions could be expressed through microservices. I decided to incorporate a brokerage architecture as well, since I think that architecture would be better for the first two requirements. The numerous servers of a brokerage architecture could decrease latency by increasing the number of requests that can be processed at a time, as well as support huge amounts of data. The biggest drawback is that the brokerage architecture has the potential to introduce a lot of overhead, which could interfere with the individual processes of the microservice architecture.
