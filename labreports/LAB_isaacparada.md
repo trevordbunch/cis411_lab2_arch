@@ -29,13 +29,15 @@ Use Case #2
 
 | Model | View | Controller |
 |---|---|---|
-| Check Login credentials | Login page | Handle login request |
+| Check Login credentials, add new records for new accounts| Login/signup page | Handle login request |
 | Update user/agency information, or Access statistics | Home screen | Home screen features & app navigation|
-| Querry for nearby events | Nearby Events list | Handle search requests|
+| Add public events & Querry for nearby events | Events list | Event features|
 | Access  event/ organization information | Event/organization pages| Handle requests for all event/organizer pages|
 
 ## Step 2.3 Diagram a Use Case in Architectural Terms
-INSERT IMAGE HERE with a Description.
+![MVC Diagram](labreports/../MVC_Diagram.png)
+
+The main MVC component here is the login system where the user (a volunteer or service agency) creates their account. The information they enter is passed from the dynamic web page through the controller to the model where it is added to the database as a new record. I also included (in less detail) the process of listing and signing up for events. 
 
 # Step 3: Enhancing an Architecture
 
