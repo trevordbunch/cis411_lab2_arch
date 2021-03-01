@@ -3,7 +3,7 @@ ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Hallie Nicholas  
-**GitHub Handle:** hallienicholas
+**GitHub Handle:** hallienicholas  
 **Repository:**  hallienicholas/cis411_lab2_arch   
 **Collaborators:** @el1303 @Tim12-code
 ___
